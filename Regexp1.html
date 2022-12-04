@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+            function test()
+            {
+                var name= document.getElementById('name').value;
+                let regex=/^[a-z]$/;
+                if(regex.test(name))
+                {
+                    alert("valid");
+
+                }
+                else
+                {
+                    alert("Not Valid")
+                }
+
+                             }
+        </script>
+    <input type="text" id="name"> <br>
+    <button type="Button" onclick="test()" > Button </button>
+</body>
+</html>
